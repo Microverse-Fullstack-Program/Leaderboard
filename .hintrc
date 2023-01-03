@@ -1,5 +1,6 @@
 {
   "connector": {
+    "doctype": "error",
     "name": "local",
     "options": {
       "pattern": ["**", "!.git/**", "!node_modules/**"]
@@ -14,5 +15,6 @@
     "meta-charset-utf-8",
     "meta-viewport",
     "no-inline-styles:error"
-  ]
+  ],
+  "parsers": ["webpack-config"]
 }
