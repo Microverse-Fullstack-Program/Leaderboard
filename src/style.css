@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #818162;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  padding: 10px 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  gap: 55px;
+}
+
+.left-block {
+  display: block;
+}
+
+.left-block-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.scores-container {
+  margin-top: 15px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+
+.score-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
