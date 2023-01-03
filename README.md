@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://microverse-fullstack-program.github.io/Webpack-Todo-List/dist)
+- [Live Demo Link](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +74,7 @@ Clone this repository to your desired folder:
 2. Navigate to the directory where you want clone the copy of this repository
 3. Create new directory [optional]
 4. Clone the repo using the below command
- > git clone  https://github.com/Microverse-Fullstack-Program/Webpack-Todo-Lists
+ > git clone  https://github.com/Microverse-Fullstack-Program/Leaderboard
 
 ### Usage
 
@@ -98,7 +98,7 @@ This project can be used to practice javascript ES6 and Webpack
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Microverse-Fullstack-Program/Webpack-Todo-Lists/issues).
+Feel free to check the [issues page](https://github.com/Microverse-Fullstack-Program/Leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
