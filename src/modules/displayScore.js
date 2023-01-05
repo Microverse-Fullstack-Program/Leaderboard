@@ -3,6 +3,7 @@ import getScore from './getScore.js';
 const scoreContainer = document.querySelector('.scores-container');
 
 const printScore = async () => {
+  scoreContainer.innerHTML = '';
   const result = await getScore();
 
   result.forEach((game) => {
