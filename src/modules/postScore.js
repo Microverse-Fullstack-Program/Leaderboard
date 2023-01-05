@@ -1,6 +1,6 @@
 import url from './url.js';
 
-const postScore = async ({name, score}) => {
+const postScore = async (name, score) => {
   const response = await fetch(url, {
     method: 'POST',
     headers: {
