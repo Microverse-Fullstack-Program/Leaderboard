@@ -1,4 +1,4 @@
-const scoreContainer = document.querySelector('.scores-container');
+import postScore from './postScore.js';
 
 const name = document.querySelector('.name');
 const score = document.querySelector('.score');
@@ -6,12 +6,9 @@ const score = document.querySelector('.score');
 const addScore = (e) => {
   e.preventDefault();
   if (name.value && score.value) {
-    const result = document.createElement('p');
-    result.className = 'user-score';
-    result.innerHTML = `${name.value}: ${score.value}`;
+    postScore(name.value, score.value);
     name.value = '';
     score.value = '';
-    scoreContainer.appendChild(result);
   }
 };
 
