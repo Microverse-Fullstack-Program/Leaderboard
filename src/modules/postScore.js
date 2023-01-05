@@ -8,7 +8,7 @@ const postScore = async (name, score) => {
     },
     body: JSON.stringify({
       user: `${name}`,
-      score: `${score}`
+      score: `${score}`,
     }),
   });
   const res = await response.json();
