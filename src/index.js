@@ -11,6 +11,6 @@ form.addEventListener('submit', addScore);
 refreshBtn.addEventListener('click', printScore);
 
 //getting game id
-// getGameId();
+//getGameId();
 
-//Game ID: si9AmHd9ZYFmlXpFRn4j
+//Game ID: hkSSwDAz6zTnDxFsgDmT
