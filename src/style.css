@@ -4,10 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Balsamiq Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 body {
-  background: #818162;
+  background: #afafa8;
 }
 
 .wrapper {
@@ -41,17 +44,55 @@ body {
   gap: 15px;
 }
 
-.scores-container {
+.score-wrapper {
   margin-top: 15px;
-  border: 1px solid black;
+  border: 2px #000 solid;
+  gap: 15px;
+}
+
+.score-wrapper div {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.scores {
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.score-wrapper .scores:nth-child(odd) {
+  background: rgb(111, 152, 168);
+}
+
+.score-wrapper .scores:nth-child(even) {
+  background: rgb(130, 202, 160);
 }
 
 .score-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
+}
+
+button {
+  padding: 0 5px;
+  border: 2px solid;
+  box-shadow: 3px 3px black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.addScoreBtn {
+  width: max-content;
+  align-self: flex-end;
+}
+
+input {
+  border: 2px #000 solid;
+  padding: 5px;
+  font-weight: 400;
 }
