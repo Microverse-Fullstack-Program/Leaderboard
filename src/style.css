@@ -24,6 +24,7 @@ body {
 
 .title {
   padding: 10px 0;
+  font-size: 25px;
 }
 
 .container {
@@ -36,6 +37,7 @@ body {
 
 .left-block {
   display: block;
+  width: 55%;
 }
 
 .left-block-header {
