@@ -1,6 +1,6 @@
 import getScore from './getScore.js';
 
-const scoreContainer = document.querySelector('.scores-container');
+const scoreContainer = document.querySelector('.score-wrapper');
 
 const printScore = async () => {
   scoreContainer.innerHTML = '';
@@ -8,7 +8,7 @@ const printScore = async () => {
 
   result.forEach((game) => {
     const p = document.createElement('p');
-    p.className = 'user-score';
+    p.className = 'scores';
     p.innerHTML = `${game.user}: ${game.score}`;
     scoreContainer.appendChild(p);
   });
